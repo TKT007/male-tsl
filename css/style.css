@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Arial", sans-serif;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.menu-list p {
+  font-size: 15px;
+  margin-right: 17px;
+}
+
+.btn-top {
+  background-color: #dc3545;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.content h2 {
+  font-size: 46px;
+  font-family: "Times New Roman", sans-serif;
+  line-height: 44px;
+  color: #222222;
+  font-weight: 900;
+}
+
+.content p {
+  color: #000;
+}
+
+.content p em {
+  padding: 3px 3px 0px 0px;
+  margin: 0px;
+  float: left;
+  color: #000000;
+  font-size: 68px;
+  line-height: 35px;
+  font-family: "Times New Roman", sans-serif;
+  font-style: normal;
+}
+
+.content h3 {
+  font-size: 39px;
+  color: #000;
+}
+
+.content h4 {
+  color: #222;
+  font-size: 26px;
+  font-weight: 900;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.content h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.content-row {
+  width: 100%;
+  height: 13px;
+  border-top: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.content .claim {
+  line-height: 26px;
+  font-size: 17px;
+  color: #0198bd;
+}
+
+mark {
+  background-color: #ff0;
+  font-size: 18px;
+}
+
+.stock {
+  padding: 4px 9px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  font-family: Arial;
+  line-height: 26px;
+  font-size: 17px;
+  color: #222222;
+  border: 1px dotted #000000;
+  background: #effff7;
+}
+
+.kit {
+  border: 1px solid #c0c0c0;
+  padding: 20px;
+}
+
+.kit .claim {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 21px;
+  text-decoration: underline;
+}
+
+.content h6 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.results {
+  margin: 8px 0px 15px;
+  line-height: 28px;
+  color: #666666;
+  border-bottom: 2px solid #0198bd;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.news1 {
+  border-bottom: 2px solid #0198bd;
+}
+
+.sidekit {
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #cccccc;
+  background: #f5f9fa;
+  color: #333333;
+}
+
+.secondkit {
+  font-size: 20px;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.sidekit-text {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 14px;
+  color: #393939 !important;
+}
+
+@media(max-width:821px) {
+  .content h2 {
+    font-size: 36px;
+  }
+
+  .content h3 {
+    font-size: 35px;
+  }
+
+  .sidekit-image {
+    width: 85%;
+  }
+}
